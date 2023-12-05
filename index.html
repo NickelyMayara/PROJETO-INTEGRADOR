@@ -15,12 +15,14 @@
             <img class="logoB" src="./img/logoBONAVITA.png" width="70px" height="70px">
             <h4> |&nbspBONAVITA</h4>
         </div>
-        <a class="nav-link" href="./index.html">HOME &nbsp&nbsp</a>
-        <a class="nav-link" href="">CONTATO &nbsp&nbsp</a>
-        <a class="nav-link" href="">PORTAL &nbsp&nbsp</a>
-        <a class="nav-link" href="#servicos">SERVIÇOS &nbsp&nbsp</a>
-        <a class="login" href="./pages/login.html">LOGIN &nbsp&nbsp</a>
-        <button class="cadastro"> CADASTRO</button>
+        <div style="display: flex;">
+            <a class="nav-link" href="./index.html">HOME &nbsp&nbsp</a>
+            <a class="nav-link" href="">CONTATO &nbsp&nbsp</a>
+            <a class="nav-link" href="#servicos">SERVIÇOS &nbsp&nbsp</a>
+            <a class="login" href="./pages/login.html">LOGIN &nbsp&nbsp</a>
+            <button class="cadastro" onclick="redirectToCadastro()"> CADASTRO</button>
+        </div>
+
     </nav>
     <div class="linha1"></div>
     <div class="container-1">
@@ -157,22 +159,22 @@
         </h3>
         <p class="texto1-Feed"> Nos ajude a melhorar nossa plataforma e insira sua sugestão aqui abaixo!</p>
         <form class="form">
-                <label class="nome-Form"> Digite seu nome: </label>
-                <input type="text" name="nome" id="nome" class="nome-Input" required> <!--required: validação-->
-                <br>
-                <div>
-                    <label class="escolha-Feed"> Você gostou dessa plataforma?</label>
-                    <label>
+            <label class="nome-Form"> Digite seu nome: </label>
+            <input type="text" name="nome" id="nome" class="nome-Input" required> <!--required: validação-->
+            <br>
+            <div>
+                <label class="escolha-Feed"> Você gostou dessa plataforma?</label>
+                <label>
                     <input type="radio" name="escolha" value="escolha"> Sim
-                    </label>
-                    <input type="radio" name="escolha" value="escolha"> Não
-                    </label>
-                </div>
-                <br>
-                <label class="sugestao-Form"> Digite sua sugestão:</label>
-                <input type="text" name="sugestao" id="sugestao" class="sugestao-Input" required>
+                </label>
+                <input type="radio" name="escolha" value="escolha"> Não
+                </label>
+            </div>
+            <br>
+            <label class="sugestao-Form"> Digite sua sugestão:</label>
+            <input type="text" name="sugestao" id="sugestao" class="sugestao-Input" required>
 
-                <button type="submit" class="bot-Form"> Enviar</button>
+            <button type="submit" class="bot-Form"> Enviar</button>
         </form>
 
     </div>
@@ -189,12 +191,13 @@
         <form>
             <div class="email-Footer">
                 <input type="email" name="email" class="email-Input" placeholder="E-mail para equipe BONAVITA">
-                <button type="submit" class="bot-Rodape"> <img src="https://cdn-icons-png.flaticon.com/512/786/786306.png" class="img-rod"></button>
+                <button type="submit" class="bot-Rodape"> <img
+                        src="https://cdn-icons-png.flaticon.com/512/786/786306.png" class="img-rod"></button>
             </div>
         </form>
 
         <div class="texto-Footer">
-           <h6 class="copy-rod"> &copy; 2023 Copyright - BONAVITA </h6> 
+            <h6 class="copy-rod"> &copy; 2023 Copyright - BONAVITA </h6>
         </div>
 
     </footer>
