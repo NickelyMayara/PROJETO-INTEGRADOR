@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+
+:root {
+    --black: #000;
+    --gray: #494c4e;
+    --white: #fff;
+    --cinzaclaro: #989a91;
+    --verdeescuro: #1F3825;
+    --verde-claro: #B5E9CA;
+    --cinza-trans: #615d5d7a;
+}
+
+body{
+    background-color: #fff;
+    margin:0;
+}
+
+.titulo{
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    width: 1400px;
+    height: 1050px;
+    background-color: #B5E9CA;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 30px;
+    margin-right: -200px;
+}
+
+.conteudo1{
+    padding: 20px;
+    margin-left: -20px;
+    font-family: 'Roboto', sans-serif;
+}
+.conteudo1 h4{
+    margin-left: -500px;
+    font-family: 'Roboto', sans-serif;
+}
+.conteudo2 h4{
+    margin-left: -500px;
+    font-family: 'Roboto', sans-serif;
+}
+.conteudo3 h4{
+    margin-left: -430px;
+    background-color: var(--);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.conteudo2{
+    padding: 20px;
+}
+
+.conteudo3{
+    padding: 20px;
+}
+
+.cuidadora1{
+    width: 115px;
+    height: 100px;
+    margin-left: 400px;
+    padding: 40px;
+}
+
+.cuidadora2{
+    width: 121px;
+    height: 113px;
+    margin-left: 400px;
+    padding: 50px;
+}
+
+.cuidadora3{
+    width: 121px;
+    height: 113px;
+    margin-left: 400px;
+    padding: 50px;
+}
+
+.container1{
+    display: flex;
+}
+
+.container2{
+    display: flex;
+}
+
+.container3{
+    display: flex;
+}
+
+.digiteaqui{
+    width: 600px;
+    height: 25px;
+    border-radius: 15px;
+    margin-left: 450px;
+    margin-bottom: 30px;
+}
+
+.lorem1{
+    text-align: left;
+    margin: 0;
+    padding: 2px;
+    margin-right: 500px;
+    margin-block-end: auto;
+    text-align: justify;
+}
+
+.lorem2{
+    text-align: left;
+    margin: 0;
+    padding: 2px;
+    margin-right: 500px;
+    margin-block-end: auto;
+    text-align: justify;
+}
+
+.lorem3{
+    text-align: left;
+    margin: 0;
+    padding: 2px;
+    margin-right: 500px;
+    margin-block-end: auto;
+    text-align: justify;
+}
+

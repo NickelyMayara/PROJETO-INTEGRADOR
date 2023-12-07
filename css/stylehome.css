@@ -10,6 +10,7 @@
     --cinzaclaro: #989a91;
     --verdeescuro: #1F3825;
     --verde-claro: #B5E9CA;
+    --cinza-trans: #615d5d7a;
 }
 
 body {
@@ -361,7 +362,7 @@ body {
 }
 
 .bodylogin {
-    background-color: var(--black);
+    background-color: var(--cinza-trans);
 }
 
 section {
@@ -547,4 +548,9 @@ button {
 .naotemconta {
     text-align: center;
     margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.cadastrese{
+    color: var(--verde-claro);
 }

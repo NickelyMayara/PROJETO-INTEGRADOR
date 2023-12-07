@@ -29,14 +29,17 @@
                 <div class="bloco1">
                     <div class="detalhes-b1">
                          <img src="../img/idoCadastro.png" class="imgCadastro-1">
-                         <button class="bot-Paciente"> <a href="./pacientes.html" class="bot-Paciente2"> PACIENTE </a> </button>
+                         <button class="bot-Paciente" onclick="redirectToCadastropaciente()"> <a class="bot-Paciente2">PACIENTE </a> </button>
+                         <script>function redirectToCadastropaciente() {
+                            window.location.href = "./cadastro.html";
+                         }</script>
                     </div>
                 </div>
 
                 <div class="bloco2">
                     <div class="detalhes-b2">
                          <img src="../img/profiCadastro.png"  class="imgCadastro-2">
-                         <button class="bot-Profissional"> <a href="./profissional.html" class="bot-Profissional2"> PROFISSIONAL </a> </button>
+                         <button class="bot-Profissional" onclick="redirectToCadastropaciente()"> <a class="bot-Profissional2"> PROFISSIONAL </a> </button>
                     </div>
                     
                 </div>

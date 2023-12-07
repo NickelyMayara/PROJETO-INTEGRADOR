@@ -12,13 +12,23 @@
 <body class="bodylogin">
 
     <nav class="navbar">
-        <a class="nav-link" href="../index.html">HOME &nbsp&nbsp</a>
-        <a class="nav-link" href="./contato.html">CONTATO &nbsp&nbsp</a>
-        <a class="nav-link" href="">PORTAL &nbsp&nbsp</a>
-        <a class="nav-link" href="#balao">SERVIÇOS &nbsp&nbsp</a>
-        <a class="login" href="./login.html">LOGIN &nbsp&nbsp</a>
-        <button class="cadastro"> CADASTRO</button>
+        <div class="logoConjunto">
+            <img class="logoB" src="../img/logoBONAVITA.png" width="70px" height="70px">
+            <h4> |&nbspBONAVITA</h4>
+        </div>
+        <div style="display: flex;">
+            <a class="nav-link" href="../index.html">HOME &nbsp&nbsp</a>
+            <a class="nav-link" href="./contato.html">CONTATO &nbsp&nbsp</a>
+            <a class="nav-link" href="../index.html">SERVIÇOS &nbsp&nbsp</a>
+            <a class="login" href="./login.html">LOGIN &nbsp&nbsp</a>
+            <button class="cadastro" onclick="redirectToCadastro()"> CADASTRO</button>
+            <script>function redirectToCadastro() {
+                window.location.href = "./preCadastro.html";
+             }</script>
+        </div>
+
     </nav>
+
     <div class="erroeform">
  
             <section class="sectionlogin">
@@ -48,11 +58,12 @@
                </div>
             <button class="submitlogin" id="btnSend">AVANÇAR</button>
 
-            <div class="naotemconta">Não tem contar? Cadastre-se</div>
+            <div class="naotemconta">Não tem contar? <a class="cadastrese" href="./preCadastro.html">Cadastre-se</a> </div>
         </form></div>
     </section>
 </div>
     <script src="../js/validacaocadastro.js"></script>
+    
 </body>
 
 </html>
